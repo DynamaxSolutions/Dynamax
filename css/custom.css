@@ -1,0 +1,257 @@
+/*------------------------------------------------------------------
+Template Name:  N. agency - Responisve Landing Page for Agency
+Version:        1.0
+Last update:    12/17/2017
+Author:         tabthemes
+URL:            http://www.tabthemes.com/
+-------------------------------------------------------------------*/
+/*--------------------------------------------------
+    Write Down your Own Custom CSS here. It is better choice than editing style.css file.
+    Put it below of style.css file in the header.
+---------------------------------------------------*/
+
+/* TOP PART OF WEBSITE NAVBAR AND CAROUSEL  */
+
+@media screen and (min-width: 1025px) {
+
+    .callicon{
+        display: none;
+    }
+       
+     }
+
+@media (max-width: 992px){
+
+    .carousel{
+        position: relative;
+        top: -15px;      
+    }
+
+    
+}
+@media (min-width:992px){
+
+    .logo{
+        width: 126px;
+        height: 48px;
+    }
+    .mobile-logo{
+        display: none;
+    }
+}
+@media (max-width:992px){
+
+    .mobile-logo{
+        width: 60px;
+        height: 50px;
+        padding-top: 13px;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+.whp-icon{
+    background-color: #000000;
+}
+.contact-info-text a{
+    color: azure;
+}
+.contact-info-text a:hover{
+    color: #c2ed5e;
+}
+.navbar .container-fluid {
+    padding: 0 50px;
+    background-color: #000000;
+    
+}
+.nav-solid .navbar-nav > li > a {
+    color: #ffffff;
+}
+.overlay-dark:before, .overlay-dark .YTPOverlay:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+
+.video-fluid1 {
+    width: 100%;
+    
+    
+    
+  }
+
+  
+/* TOP PART OF WEBSITE NAVBAR AND CAROUSEL  */
+
+/* pc media width */
+@media (min-width:992px){
+    .mobile-services{
+        display: none;
+    }
+    .video-fluid-comp{
+        width: 100%;
+        padding: 0 15px 0 15px;
+        position: relative;
+        bottom: 100px;
+      }
+      .video-fluid-mob{
+        width: 100%;
+        padding: 0 15px 0 15px;
+        display: none;
+      }
+      .grow-ur-business{
+        padding-top: 150px ; 
+      }
+      .teamShivam{
+left:100px;
+      }
+      .teamVarun{
+float: right;
+right: 150px;
+      }
+}
+
+/* mobile media width */
+@media (max-width:992px){
+    .feature-image{
+        display: none;
+    }
+    #service{
+        display: none;
+    }
+
+    .pcPortfolio{
+        display: none;
+    }
+    .teamShivam{
+        left:0px;
+       
+              }
+              .teamVarun{
+        float: right;
+        right: 0px;
+        
+              }
+
+.panel{
+    background-color: #e2e604;
+}  
+    
+.panel-title a {
+        position: relative;
+        background:aqua;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 22px 40px;
+        border-top: 1px solid #000000;
+        -webkit-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+.panel-title a.collapsed:before {
+        content: '';
+    }
+
+.panel-title a:before {
+        content: '';
+        text-align: center;
+        width: 28px;
+        height: 28px;
+        font-size: 24px;
+        line-height: 26px;
+        position: absolute;
+        border-radius: 0;
+        top: 15px;
+        right: 13px;
+    }
+.mobile-services{
+        padding-top: 40px;
+    }
+    .video-fluid-comp{
+        width: 100%;
+        padding: 0 15px 0 15px;
+        display: none;
+      }
+      .video-fluid-mob{
+        width: 100%;
+        padding: 0 15px 0 15px;
+
+      }
+
+}
+/* end  */
+
+#service{
+    
+    padding-top: 100px;
+}
+
+#portfolio{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFfXx_LZ6i9C0oeUevjMUTZSojgrQRDUHFw&usqp=CAU);
+}
+
+#team{
+    padding-top: 0;
+}
+
+#client{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFfXx_LZ6i9C0oeUevjMUTZSojgrQRDUHFw&usqp=CAU);
+}
+
+.whychooseus{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFfXx_LZ6i9C0oeUevjMUTZSojgrQRDUHFw&usqp=CAU);
+}
+
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFfXx_LZ6i9C0oeUevjMUTZSojgrQRDUHFw&usqp=CAU);
+}
+
+.panel-title a.collapsed {
+    background-color: transparent;
+    color: black;
+    border-top: none;}
+#owl-blog{
+    padding: 10px;
+}
+.wow{
+    border-radius: 50px;
+}
+.teamButton{
+    position: relative;
+    font-size: 20px;
+    top: -25px; 
+    display: flex; 
+    justify-content: center;
+}
+.teamButton button{
+    background:url(https://images.megapixl.com/3059/30591076.jpg);
+    border-radius: 5px;
+    border: none;  
+}
+.teamButton button p{
+    padding: 5px;
+    padding-top: 10px;
+    pointer-events: none;   
+}
+.teamButton button i{
+    padding-left: 5px;
+}
+.teamButton a{
+    color: rgb(0, 0, 0);
+}
+.teamButton :hover{
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+}
